@@ -84,8 +84,15 @@
 <groupId>javax.servlet</groupId>
 <artifactId>jstl</artifactId>
 </dependency>
-	</dependencies>
 
+<dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
 	<build>
 		<plugins>
 			<plugin>
